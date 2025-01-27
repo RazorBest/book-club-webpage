@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clubul de Lectura ACS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body class="background-base">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script type="text/javascript" src="./index.js" async defer></script>
+        
+        <div class="main">
+
+        <div class="tc" >
+            <div class="dib tc v-top pa2 pa1-ns ma">
+                <p class="title f1" class="v-top dib"><b>Clubul de lectură ACS</b> </p>
+                <!--<div class="dib"><img src="./images/icon.webp" class="br-100 h4 w4 dib ba b--black-04"></div>-->
+            </div>
+        </div>
+
+        <div class="container ph3">
+            <article class="card bg-color-2" id="join">
+                <div class="tc" style="overflow: hidden;">
+                    <img src="./images/whatsapp_qr_invite.svg" class="qr-code" ></img>
+                </div>
+                <p class="card-title tc">Alătură-te</p>
+                <img class="card-expand-button expand-icon" src="./fontawesome/plus-solid.svg"> </img>
+            </article>
+
+
+            <article class="card bg-color-1" id="books" >
+                <div class="card-content tc f2">
+                    <b>
+                        <p>Catch-22</p>
+                        <p>Joseph Heller</p>
+                    </b>
+                </div>
+                <p class="card-title tc">Ce citim?</p>
+                <img class="card-expand-button expand-icon" src="./fontawesome/plus-solid.svg"> </img>
+            </article>
+
+            <article class="card bg-color-1" id="about">
+                    <div class="tc" style="overflow: hidden;">
+                        <img src="./images/people.svg" class="people-icon"></img>
+                    </div>
+                    <p class="card-title tc">Cine suntem?</p>
+                    <img class="card-expand-button expand-icon" src="./fontawesome/plus-solid.svg"> </img>
+            </article>
+
+            <article class="card bg-color-2" id="faq">
+                <div class="question-symbol tc">
+                    <b><p style="margin-top: 0rem; margin-bottom: 0rem;">?</p></b>
+                </div>
+                <p class="card-title tc">FAQ</p>
+                <img class="card-expand-button expand-icon" src="./fontawesome/plus-solid.svg"> </img>
+            </article>
+
+            <!--
+            <article class="card br3 ph1-ns pt-1ns dib" id="faq">
+                <div class="tc w-100"  style="position: relative; height: 100%;">
+                    <div class="dib w-100" style="display: flex; flex-direction: column; height: 100%;">
+                        <div class="tc" style="flex-grow: 1; justify-content: center; align-items: center;">
+                            <img src="./images/faq_icon.svg" class="faq-icon v-mid"></img>
+                        </div>
+                        <div style="line-height:1.5rem; margin-top: auto;" class="fb">
+                            <b><p class="f2 card-title">FAQ</p></b>
+                        </div>
+                    </div>
+                    <div class="bg-animate ma1 fr" style="position: absolute; top: 0; right: 0;">
+                        <img class="expand-icon" src="./fontawesome/plus-solid.svg"> </img>
+                    </div>
+            </article>
+        -->
+
+            <div class="expanded-card-container" id="join-expanded-container">
+                <div class="expanded-card bg-color-2 br4" id="join-expanded">
+                    <div class="join-container">
+                        <div>
+                            <h1>Alătură-te la Clubul de Lectură</h1>
+                            <p class="f4">Vă așteptăm cu brațele deschise</p>
+                            <br>
+                            <h2 style="display: inline;">Link Whatsapp: </h2>
+                            <a href="https://chat.whatsapp.com/L3BWboYDnC8J1yzBazPd0a">https://chat.whatsapp.com/L3BWboYDnC8J1yzBazPd0a</a>
+                        </div>
+                        <div>
+                            <h1>Cod QR Whatsapp</h1>
+                            <div class="qr-code-expanded-container">
+                                <img class="qr-code-expanded v-top" src="./images/whatsapp_qr_invite.svg"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="card-shrink-button shrink-icon" src="./fontawesome/minus-solid.svg" />
+                    <div class="card-shrink-bar"></div>
+                </div>
+            </div>
+
+            <div class="expanded-card-container" id="books-expanded-container">
+                <div class="expanded-card bg-color-1 br4" id="books-expanded">
+                    <div>
+                        <h2>Ce citim?</h2>
+                        <table class="books-table">
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/168668.Catch_22">Catch-22</a></td> <td>Joseph Heller</td>
+                            </tr>
+                        </table>
+                        <h2>Ce am citit</h2>
+                        <table class="books-table">
+                            <tr>
+                                <td><a href="https://www.goodreads.com/en/book/show/20426995-20-de-ani-n-siberia">20 de ani în Siberia</a></td> <td>| Anița Nandriș-Cudla</td> <td>| 12.01.2025</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/117833.The_Master_and_Margar">The Master and Margarita</a></td> <td>| Mikhail Bulgakov</td> <td>| 24.11.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/41804.I_Robot">I, robot</a></td> <td>| Isaac Asimov</td> <td>| 01.11.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/11.The_Hitchhiker_s_Guide_to_the_Galaxy">The Hitchhiker's Guide to the Galaxy</a></td> <td>| Douglas Adams</td> <td>| 05.10.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/15718052-flori-pentru-algernon">Flori pentru Algernon</a></td> <td>| Daniel Keyes</td> <td>| 14.09.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/44319759-str-inul">Străinul</a></td> <td>| Albert Camus</td>  <td>| 17.08.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/18623433">Însemnări din subterană</a></td> <td>| Fyodor Dostoevsky</td>  <td>| 20.07.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/41057294-normal-people">Normal People</a></td> <td>| Sally Rooney</td>  <td>| 29.06.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/26479237-procesul">Procesul</a></td> <td>| Franz Kafka</td>  <td>| 08.06.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://goodreads.com/book/show/18490.Frankenstein">Frankenstein</a></td> <td>| Mary Wollstonecraft Shelley</td>  <td>| 18.05.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/194746.No_Longer_Human">No Longer Human</a></td> <td>| Osamu Dazai</td>  <td>| 20.04.2024</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.goodreads.com/book/show/20812226-minunata-lume-noua">Minunata lume nouă</a></td> <td>| Aldous Huxley</td>  <td>| 30.03.2024</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img class="card-shrink-button shrink-icon" src="./fontawesome/minus-solid.svg" />
+                    <div class="card-shrink-bar"></div>
+                </div>
+            </div>
+        
+            <div class="expanded-card-container" id="about-expanded-container">
+                <div class="expanded-card bg-color-2 br4" id="about-expanded">
+                    <div>
+                        <h2>Cine suntem?</h2> 
+                        <p>Clubul de lectura a fost initiat de un student de la Facultatea de Automatica, pasionat de lectura,
+                            care-si dorea sa-si impartaseasca pasiunea cu alti studenti. In prezent, ne propunem periodic
+                            sa citim o carte, si organizam o intalnire unde ne adunam si discutam despre aceasta. In general,
+                            discutiile sunt ad-hoc, si fiecare are posibilitatea sa-si exprime opinia. Discutiile trateaza
+                            si teme mai generale precum ar fi: filozofie, stiinta, politica, filme si viata de zi cu zi.
+                        </p>
+                    </div>
+                    <img class="card-shrink-button shrink-icon" src="./fontawesome/minus-solid.svg" />
+                    <div class="card-shrink-bar"></div>
+                </div>
+            </div>
+
+            <div class="expanded-card-container" id="faq-expanded-container">
+                <div class="expanded-card bg-color-1 br4" id="faq-expanded">
+                    <div>
+                        <h1>Intrebari?</h1>
+                        
+                        <h3>Pot sa ma alatur daca n-am mai citit de mult timp?</h3>
+                        <ul>
+                            <li>Cu siguranta! Un scop al clublui este de a te incuraja sa citesti, prin intalnirile pe care le face.</li>
+                        </ul>
+
+                        <h3>Pot sa ma alatur daca nu sunt student la Automatica?</h3>
+                        <ul>
+                            <li>Da. Chiar daca majoritatea participantilor sunt sau au fost studenti la facultatea de Automatica, avem membri si de la alte facultati. Asteptam cititori noi cu bratele deschise!</li>
+                        </ul>
+
+                        <h3>Unde se tin intalnirile?</h3>
+                        <ul>
+                            <li>In general, intalnirile se tin in campusul Politehnicii. Pentru mai multe detalii, alatura-te grupului de WhatsApp.</li>
+                        </ul>
+
+                        <h3>Cat de des se tin intalnirile?</h3>
+                        <ul>
+                            <li><p>De regula, odata la 3 saptamani, dar si dupa disponibilitatea celorlalti.</p></li>
+                        </ul>
+
+                        <h3>Cum se aleg cartile la clubul de lectura?</h3>
+                        <ul>
+                            <li>La sfarsitul fiecarei intalniri, votam urmatoarea carte pe care sa o citim. De asemenea, luam in considerare si voturile din sesiunile anterioare.</li>
+                        </ul>
+
+                        <h3>Mai faceti si altceva?</h3>
+                        <ul>
+                            <li>Multi suntem pasionati si de filme. Uneori, facem si seri de film. Iar, daca esti pasionat de board games, avem un club si pentru asta.</li>
+                        </ul>
+                    </div>
+                    <img class="card-shrink-button shrink-icon" src="./fontawesome/minus-solid.svg" />
+                    <div class="card-shrink-bar"></div>
+                </div>
+            </div>
+        </div>
+   
+        <!--
+        <div class="background-ribbon flex" style="flex-direction: column;">
+            <svg class="w3" style="flex-grow: 1;">
+                <rect x="0" y="0" width="100%" height="100%"></rect>
+            </svg>
+            <svg class="w3 h3" viewBox="0 0 100 100">
+                <path
+                    fill="black"
+                    d="M 0,0
+                       L 0,100
+                       L 50,50
+                       L 100,100
+                       L 100,0
+                       z
+                    "
+                ></path>
+            </svg>
+        </div>
+    -->
+    
+    </div>
+    </body>
+</html>
