@@ -354,6 +354,9 @@ height: 21.5rem;
         font-size: 14rem;
         line-height: 14rem
     }
+    .container {
+        grid-template-columns: 1fr 64fr 64fr 1fr;
+    }
     .container > :nth-child(1) {
         grid-column: 2 / 4;
     }
