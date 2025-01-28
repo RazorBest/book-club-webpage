@@ -270,26 +270,16 @@ body {
   padding-left: 1rem;
 }
 @media (45em < width <= 60em) {
-  .card {
-    height: 18rem;
-  }
-  .card:hover {
-    height: 18.5rem;
-  }
-  .card-title {
-    font-size: 2rem;
-  }
-  .card-content {
-    font-size: 2.25rem;
-  }
-  .question-symbol {
-    font-size: 14rem;
-    line-height: 14rem;
+  html {
+    font-size: 0.85em;
   }
 }
 @media (width <= 45em) {
+  html {
+    font-size: 0.85em;
+  }
   .card {
-    height: 18rem;
+    height: 21rem;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
   }
