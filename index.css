@@ -100,8 +100,9 @@ html,body {
 
 
 .card:hover {
+height: 21.5rem;
     padding: 0.25rem;
-    margin: 0.25rem;
+    margin: 0.5rem;
 }
 
 .card .card-expand-button {
