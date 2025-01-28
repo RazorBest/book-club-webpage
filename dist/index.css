@@ -38,7 +38,7 @@
 .pad-10-per-h > * {
   grid-column: 2 / 3;
 }
-.body {
+body {
   color: #3d405b;
 }
 html,
@@ -101,10 +101,10 @@ body {
   grid-row: 5 / 6;
 }
 .card.bg-color-1:hover {
-  background-color: #e3945f;
+  background-color: #ef9948;
 }
 .card.bg-color-2:hover {
-  background-color: #65c6a8;
+  background-color: #47d6b2;
 }
 .card-content {
   display: flex;
@@ -163,7 +163,7 @@ body {
 .people-icon {
   width: auto;
   height: 100%;
-  filter: opacity(100%) invert(21%) sepia(11%) saturate(1760%) hue-rotate(196deg) brightness(96%) contrast(82%);
+  filter: invert(21%) sepia(11%) saturate(1760%) hue-rotate(196deg) brightness(96%) contrast(82%);
   /* converts color to #3d405b */
 }
 .shrink-icon {
@@ -186,7 +186,6 @@ body {
   background-blend-mode: multiply;
   background-position: 20% 10%;
   font-family: veteran typewriter;
-  color: #3d405b;
   display: grid;
   grid-template-columns: 5fr 90fr 2fr 3fr;
   grid-template-rows: auto;
@@ -211,7 +210,7 @@ body {
   transition: 0.3s;
 }
 .expanded-card > .card-shrink-bar:hover {
-  background-color: #65e6a8;
+  background-color: rgba(101, 230, 168, 0.3);
 }
 .expanded-card > * {
   grid-column: 2 / 3;

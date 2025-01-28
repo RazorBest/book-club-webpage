@@ -1,4 +1,9 @@
 @color-text-main: #3d405b;
+@color-background: #E5DDC9;
+@color-main-1: rgb(209, 154, 102, 1);
+@color-main-2: rgb(105, 180, 161, 1);
+@color-main-1-light: saturate(@color-main-1, 30%);
+@color-main-2-light: saturate(@color-main-2, 30%);
 
 @font-face {
     font-family: ChildHood;
@@ -50,7 +55,7 @@
     grid-column: 2 / 3;
 }
 
-.body {
+body {
     color: @color-text-main;
 }
 
@@ -68,15 +73,15 @@ html,body {
  }
  
 .background-base {
-    background-color: #E5DDC9;
+    background-color: @color-background;
 }
 
 .bg-color-1 {
-    background-color: rgb(209, 154, 102, 1);
+    background-color: @color-main-1;
 }
 
 .bg-color-2 {
-    background-color: rgb(105, 180, 161, 1);
+    background-color: @color-main-2;
 }
 
 .card {
@@ -125,11 +130,11 @@ html,body {
 }
 
 .card.bg-color-1:hover {
-    background-color: rgb(227, 148, 95);
+    background-color: @color-main-1-light;
 }
 
 .card.bg-color-2:hover {
-    background-color: rgb(101, 198, 168);
+    background-color: @color-main-2-light;
 }
 
 .card-content {
@@ -193,7 +198,7 @@ html,body {
 .people-icon {
     width: auto;
     height: 100%;
-    filter: opacity(100%) invert(21%) sepia(11%) saturate(1760%) hue-rotate(196deg) brightness(96%) contrast(82%); /* converts color to #3d405b */
+    filter: invert(21%) sepia(11%) saturate(1760%) hue-rotate(196deg) brightness(96%) contrast(82%); /* converts color to #3d405b */
 }
 
 .shrink-icon {
@@ -218,7 +223,6 @@ html,body {
     background-blend-mode: multiply;
     background-position: 20% 10%;
     font-family: veteran typewriter;
-    color: #3d405b;
     
     display: grid;
     grid-template-columns: 5fr 90fr 2fr 3fr;
@@ -248,7 +252,7 @@ html,body {
 }
 
 .expanded-card > .card-shrink-bar:hover {
-    background-color: rgb(101, 230, 168, 0.3);
+    background-color: rgba(101, 230, 168, 0.3);
 }
 
 .expanded-card > * {
