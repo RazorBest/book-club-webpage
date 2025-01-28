@@ -1,0 +1,14 @@
+{
+  "name": "book_club",
+  "version": "1.0.0",
+  "description": "The Whatsapp QR code was generated using https://qrgenerator.org/transparent-qr/#link.",
+  "main": "index.js",
+  "scripts": {
+    "build": "lessc index.less dist/index.css"
+  },
+  "author": "Razvan Pricop",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.2"
+  }
+}
