@@ -100,7 +100,7 @@ html,body {
 
 
 .card:hover {
-height: 21.5rem;
+    height: 21.5rem;
     padding: 0.25rem;
     margin: 0.5rem;
 }
@@ -372,7 +372,7 @@ height: 21.5rem;
     .container > :nth-child(4) {
         grid-column: 2 / 4;
     }
-.expanded-card {
+    .expanded-card {
         margin: 0.2rem;
     }
     .join-container {
