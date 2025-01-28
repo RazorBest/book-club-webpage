@@ -1,4 +1,4 @@
-# lecture-club-webpage
+# Book club webpage
 
 
 ## Updating the page
