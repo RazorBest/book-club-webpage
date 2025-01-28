@@ -5,6 +5,7 @@
 @color-main-2: rgb(105, 180, 161, 1);
 @color-main-1-light: saturate(@color-main-1, 30%);
 @color-main-2-light: saturate(@color-main-2, 30%);
+@color-fake-white: #f3efe6;
 
 @font-face {
     font-family: ChildHood;
@@ -175,8 +176,7 @@ html,body {
 .qr-code-expanded {
     width: 19rem;
     height: 19rem;
-    background-color: white;
-    background-color: #f3efe6;
+    background-color: @color-fake-white;
 }
 
 .question-symbol {
