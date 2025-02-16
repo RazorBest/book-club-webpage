@@ -254,6 +254,18 @@ body {
   grid-column: 3 / 4;
   background-color: #69b4a1;
 }
+.container > :nth-child(1):hover {
+  background-color: #47d6b2;
+}
+.container > :nth-child(2):hover {
+  background-color: #ef9948;
+}
+.container > :nth-child(3):hover {
+  background-color: #ef9948;
+}
+.container > :nth-child(4):hover {
+  background-color: #47d6b2;
+}
 .container > * {
   grid-column: 2 / 4;
 }
@@ -321,6 +333,18 @@ body {
   .container > :nth-child(4) {
     grid-column: 2 / 4;
     background-color: #d19a66;
+  }
+  .container > :nth-child(1):hover {
+    background-color: #47d6b2;
+  }
+  .container > :nth-child(2):hover {
+    background-color: #ef9948;
+  }
+  .container > :nth-child(3):hover {
+    background-color: #47d6b2;
+  }
+  .container > :nth-child(4):hover {
+    background-color: #ef9948;
   }
   .expanded-card,
   .expanded-card-1,
