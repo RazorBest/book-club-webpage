@@ -161,7 +161,6 @@ html,body {
     overflow: hidden;
     width: auto;
     height: 100%;
-    margin-top: -11px;
     filter: invert(21%) sepia(11%) saturate(1760%) hue-rotate(196deg) brightness(96%) contrast(82%); /* converts color to #3d405b */
     mask: radial-gradient(circle at 50% 50%, rgb(255, 255, 255) 75%, transparent 100%);
 }
@@ -279,18 +278,22 @@ html,body {
 
     & > :nth-child(1) {
         grid-column: 2 / 3;
+        background-color: @color-main-2;
     }
 
     & > :nth-child(2) {
         grid-column: 3 / 4;
+        background-color: @color-main-1;
     }
 
     & > :nth-child(3) {
         grid-column: 2 / 3;
+        background-color: @color-main-1;
     }
 
     & > :nth-child(4) {
         grid-column: 3 / 4;
+        background-color: @color-main-2;
     }
 
     & > * {
@@ -354,19 +357,24 @@ html,body {
     }
     .container > :nth-child(1) {
         grid-column: 2 / 4;
+        background-color: @color-main-2;
     }
 
     .container > :nth-child(2) {
         grid-column: 2 / 4;
+        background-color: @color-main-1;
     }
 
     .container > :nth-child(3) {
         grid-column: 2 / 4;
+        background-color: @color-main-2;
     }
 
     .container > :nth-child(4) {
         grid-column: 2 / 4;
+        background-color: @color-main-1;
     }
+
     .expanded-card {
         margin: 0.2rem;
     }
